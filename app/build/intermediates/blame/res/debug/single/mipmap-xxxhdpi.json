@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "/Users/alex/Documents/Projects/FootballDatabase/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/ic_launcher.png",
+        "source": "/Users/alex/Documents/Projects/FootballDatabase/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/alex/Documents/Projects/FootballDatabase/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/ic_premier_league.png",
+        "source": "/Users/alex/Documents/Projects/FootballDatabase/app/src/main/res/mipmap-xxxhdpi/ic_premier_league.png"
+    },
+    {
+        "merged": "/Users/alex/Documents/Projects/FootballDatabase/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/ic_date_range_white_24dp.png",
+        "source": "/Users/alex/Documents/Projects/FootballDatabase/app/src/main/res/mipmap-xxxhdpi/ic_date_range_white_24dp.png"
+    },
+    {
+        "merged": "/Users/alex/Documents/Projects/FootballDatabase/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/ic_group_white_24dp.png",
+        "source": "/Users/alex/Documents/Projects/FootballDatabase/app/src/main/res/mipmap-xxxhdpi/ic_group_white_24dp.png"
+    },
+    {
+        "merged": "/Users/alex/Documents/Projects/FootballDatabase/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/ic_error_black_24dp.png",
+        "source": "/Users/alex/Documents/Projects/FootballDatabase/app/src/main/res/mipmap-xxxhdpi/ic_error_black_24dp.png"
+    },
+    {
+        "merged": "/Users/alex/Documents/Projects/FootballDatabase/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/ic_people_white_24dp.png",
+        "source": "/Users/alex/Documents/Projects/FootballDatabase/app/src/main/res/mipmap-xxxhdpi/ic_people_white_24dp.png"
+    },
+    {
+        "merged": "/Users/alex/Documents/Projects/FootballDatabase/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/ic_timeline_white_24dp.png",
+        "source": "/Users/alex/Documents/Projects/FootballDatabase/app/src/main/res/mipmap-xxxhdpi/ic_timeline_white_24dp.png"
+    },
+    {
+        "merged": "/Users/alex/Documents/Projects/FootballDatabase/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/ic_attach_money_white_24dp.png",
+        "source": "/Users/alex/Documents/Projects/FootballDatabase/app/src/main/res/mipmap-xxxhdpi/ic_attach_money_white_24dp.png"
+    },
+    {
+        "merged": "/Users/alex/Documents/Projects/FootballDatabase/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/ic_launcher_round.png",
+        "source": "/Users/alex/Documents/Projects/FootballDatabase/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/alex/Documents/Projects/FootballDatabase/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/ic_football.png",
+        "source": "/Users/alex/Documents/Projects/FootballDatabase/app/src/main/res/mipmap-xxxhdpi/ic_football.png"
+    }
+]

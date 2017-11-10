@@ -4,6 +4,7 @@
     <string name="titleB_main">Choose the league</string>
 
     <string name="title_tab_table">Table</string>
+    <string name="title_tab_fixtures">Fixtures</string>
 
     <string-array name="years_array">
         <item>2017</item>
@@ -12,5 +13,6 @@
     </string-array>
 
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hello_blank_fragment">Sorry, I am still working in this tab.</string>
+    <string name="title_activity_team">TeamActivity</string>
 </resources>

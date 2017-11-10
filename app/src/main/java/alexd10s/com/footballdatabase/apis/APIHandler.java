@@ -70,6 +70,12 @@ public class APIHandler {
                 }
                 return params;
             }
+            @Override
+            public Map<String, String> getHeaders() throws AuthFailureError {
+                Map<String, String>  params = new HashMap<String, String>();
+                params.put("X-Auth-Token", "fc8d4f2799f94e6187f8363cad28c759");
+                return params;
+            }
         };
         queue.add(stringRequest);
     }
@@ -93,7 +99,14 @@ public class APIHandler {
                         // to find no network connection error.
                         callback.OnFailure(ParseVolleyError(error));
                     }
-                });
+                }) {
+                    @Override
+                    public Map<String, String> getHeaders() throws AuthFailureError {
+                        Map<String, String>  params = new HashMap<String, String>();
+                        params.put("X-Auth-Token", "fc8d4f2799f94e6187f8363cad28c759");
+                        return params;
+                    }
+                };
 
         queue.add(stringRequest);
     }
@@ -171,5 +184,79 @@ public class APIHandler {
                         callback.OnFailure(responce);
                     }
                 });
+    }
+
+    public void GetTeams(String id,final ApiCallback callback) {
+        if (callback == null)
+            return;
+
+        // Request a string response from the provided URL.
+        DoGetWithoutParams(BASE_URL + "competitions/"+id+"/teams",new ApiCallback() {
+            @Override
+            public void OnSuccess(String responce) {
+                try {
+                    callback.OnSuccess(responce);
+                } catch (Exception e) {
+                    Log.i(TAG, e.getMessage());
+
+                    callback.OnFailure(e.getMessage());
+                }
+            }
+
+            @Override
+            public void OnFailure(String responce) {
+                callback.OnFailure(responce);
+            }
+        });
+    }
+
+    public void GetTeam(String id,final ApiCallback callback) {
+        if (callback == null)
+            return;
+
+        // Request a string response from the provided URL.
+        //DoGetWithoutParams(BASE_URL + "teams/"+id,new ApiCallback() {
+        DoGetWithoutParams(id,new ApiCallback() {
+            @Override
+            public void OnSuccess(String responce) {
+                try {
+                    callback.OnSuccess(responce);
+                } catch (Exception e) {
+                    Log.i(TAG, e.getMessage());
+
+                    callback.OnFailure(e.getMessage());
+                }
+            }
+
+            @Override
+            public void OnFailure(String responce) {
+                callback.OnFailure(responce);
+            }
+        });
+    }
+
+    public void GetPlayers(String id,final ApiCallback callback) {
+        if (callback == null)
+            return;
+
+        // Request a string response from the provided URL.
+        //DoGetWithoutParams(BASE_URL + "teams/"+id+"/players",new ApiCallback() {
+        DoGetWithoutParams(id,new ApiCallback() {
+            @Override
+            public void OnSuccess(String responce) {
+                try {
+                    callback.OnSuccess(responce);
+                } catch (Exception e) {
+                    Log.i(TAG, e.getMessage());
+
+                    callback.OnFailure(e.getMessage());
+                }
+            }
+
+            @Override
+            public void OnFailure(String responce) {
+                callback.OnFailure(responce);
+            }
+        });
     }
 }

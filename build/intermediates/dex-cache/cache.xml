@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/alex/Documents/Projects/FootballDatabase/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="d6377d635a1c6259060d919bb8ed186bdfe3d36d">
+        <dex dex="/Users/alex/Documents/Projects/FootballDatabase/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_c0922ffe521561af4fb991a14e5e869f9d035826/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/alex/Documents/Projects/FootballDatabase/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="/Users/alex/Documents/Projects/FootballDatabase/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_47db0554a5a43e6a41a711bbf94d035d18c788cc/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/alex/Documents/Projects/FootballDatabase/app/libs/svg-android.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="da90ccda68d4c02a84b9cb01526da382522c7b0d">
+        <dex dex="/Users/alex/Documents/Projects/FootballDatabase/app/build/intermediates/transforms/dex/debug/folders/1000/2/svg-android_ee39e36e10515276c00385f0590593299124e37c/classes.dex" />
+    </item>
+
+</items>

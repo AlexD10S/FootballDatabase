@@ -1,0 +1,7 @@
+#Fri Nov 10 11:11:45 GMT 2017
+base.0=/Users/alex/Documents/Projects/FootballDatabase/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_47db0554a5a43e6a41a711bbf94d035d18c788cc
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=/Users/alex/Documents/Projects/FootballDatabase/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_c0922ffe521561af4fb991a14e5e869f9d035826/classes.dex
+base.1=/Users/alex/Documents/Projects/FootballDatabase/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_c0922ffe521561af4fb991a14e5e869f9d035826
+file.0=/Users/alex/Documents/Projects/FootballDatabase/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_47db0554a5a43e6a41a711bbf94d035d18c788cc/classes.dex
